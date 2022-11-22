@@ -76,12 +76,13 @@ body {
     transition: 0.2s;
 
     visibility: hidden;
+    border: 5px solid rgb(245, 170, 8);
 }
 
 .header .gnb>ul>li:hover ul {
     position: absolute;
     top: 50px;
-    border-top: 1px solid #ddd;
+    border-top: 5px solid rgb(245, 170, 8);
 
     opacity: 1;
 
